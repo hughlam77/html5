@@ -1,4 +1,4 @@
-# html5
+# html4 - html5
 SeaLink HTML4 to HTML5 by Hugh Lam
 
 As requested via email, I attempted to refactor the HTML 4 code from GIST into HTML5.
