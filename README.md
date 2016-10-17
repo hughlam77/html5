@@ -1,5 +1,5 @@
 # html4 - html5
-I attempted to refactor the HTML 4 code from GIST into HTML5.
+I attempted to refactor the HTML 4 code into HTML5.
 
 Some notes:
 
