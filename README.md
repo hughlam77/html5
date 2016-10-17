@@ -11,6 +11,8 @@ There were a few areas where I was afraid of changing as I wanted to retain much
 
 I used jsfiddle.net to render my changes and also used the HTML 5 Validation service provided by W3C.
 
+It was tempting to use frameworks and do additional things, however I wanted to make sure it was within scope :)
+
 Thanks for the opportunity!
 
 Hugh
