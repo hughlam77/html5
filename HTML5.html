@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <title>Hugh's conversion to HTML5</title>
+    <!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<![endif]-->
+
+    <!--use this one if stored on server-->
+    <!--[if lt IE 9]>
+		<script src="/js/html5shiv.js"></script>
+	<![endif]-->
+
+    <!--Internal CSS-->
+    <style>
+      body {
+        font-family: Verdana, sans-serif;
+        font-size: 0.9em;
+      }     
+      h1 {
+        color: black;
+      }      
+      header,
+      footer {
+        padding: 10px;
+        color: white;
+        background-color: black;
+      }      
+      content {
+        margin: 5px;
+        padding: 10px;
+        background-color: lightgrey;
+      }     
+      table,
+      th,
+      td {
+        border: 1px solid red;
+        text-align: left;
+      }    
+      th,
+      td {
+        padding: 5px;
+        text-align: left
+      }      
+      table#results {
+        width: 500px;
+        border: 3px solid red;
+        text-align: left
+      } 
+      article {
+        margin: 5px;
+        padding: 10px;
+        background-color: white;
+      } 
+      nav ul {
+        padding: 0;
+      }
+      nav ul li {
+        display: inline;
+        margin: 5px;
+      }
+      a:link {
+        color: blue;
+        background-color: transparent;
+        text-decoration: none
+      }
+      a:visited {
+        color: purple;
+        background-color: transparent;
+        text-decoration: none
+      }
+      a:hover {
+        color: red;
+        background-color: transparent;
+        text-decoration: underline
+      }
+      a:active {
+        color: yellow;
+        background-color: transparent;
+        text-decoration: underline
+      }
+      a.green {
+        color: green;
+        text-decoration: none;
+      }
+      a.blue {
+        color: blue;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>   
+    <div class='cont' id='content'>
+      <h1 class='subH' id='headtitle' style='border-bottom:1px solid #cccccc'>Heading</h1>
+	  <!--The breadcrumb-->
+      <div id='navigation'>
+        <ul class="navigation" id="nav" style="margin: 0;list-style: none;">
+          <li style="display: inline">
+            <a href="#">
+              <span class="textnav">Paragraph</span>
+              <span class="carat">></span>
+            </a>
+          </li>
+          <li style="display: inline">
+            <a href='#'>
+              <span class="textnav">Table</span>
+              <span class="carat">></span>
+            </a>
+          </li>
+          <li style="display: inline">
+            <a href='#'>
+              <span class="textnav">Image</span>
+              <span class="carat">></span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <p>
+        HTML 4.0 is becoming the standard. As of the writing of this tutorial, Microsoft Explorer version 5.0 is out with full HTML 4.0 support.
+        <a href="#" class="green">Netscape Navigator 5.0</a> is not far behind, and soon the commands below will start to become mainstream.
+      </p>
+      <p>
+        Here's a quick look at how HTML 4.01 affects tables. You are already familiar with some of the tags and attributes. For example,
+        <a href='#' class="blue">BORDERCOLOR has been</a> in use for a while as a proprietary Internet Explorer tag. It has just now been written into the HTML 4.01 code.
+      </p>
+      <p>
+        I have offered as many examples as possible. Many will simply not work because you don't yet have the browser version that supports it. Don't worry, neither did I when
+        <a href="#" class="blue">I wrote this tutorial.</a> Hopefully you'll be able to visit this tutorial in the future to test what your new browser will and will not do. I am only going to hit the tags and attributes new through HTML 4.01 in this
+        tutorial. If you'd like to get into the basics of table creation, start with my table tutorials.
+      </p>
+        <!--table border is 3px and width is 500.... the colour is red...-->
+       <table id="results">
+         <tr>
+           <td>
+             <span style='font-weight: bold !important'>Heading 1</span>
+           </td>
+           <td>Heading 2</td>
+           <td style="text-align:right;">Heading 3</td>
+         </tr>
+         <tr>
+           <td>Cell Data</td>
+           <td>Cell Data</td>
+           <td style="text-align:right;">Cell Data</td>
+         </tr>
+		 <tr>
+          <td class="high">Cell Data</td>
+          <td>Cell Data</td>
+          <td style="text-align:right;">Cell Data</td>
+		 </tr>
+         <tr>
+           <td>Cell Data</td>
+           <td>Cell Data</td>
+           <td style="text-align:right;">Cell Data</td>
+         </tr>	  
+        </table>
+	      <!--The link to this picture is dead-->
+	  <p>
+        <img src="http://stylonica.com/wp-content/uploads/2014/03/cats-16140154-1920-1080.jpg" alt="Cats Image" style="width:500px; height:281px;">
+      </p>
+    </div>
